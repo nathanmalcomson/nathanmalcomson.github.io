@@ -1,0 +1,17 @@
+---
+title: "Publications"
+layout: "base.html"
+---
+
+<div class="page">
+  <h3 class="page-header">Publications</h3>
+
+  <div class="publications-list">
+    {% for post in collections.post %}
+    <a href="{{post.url}}" class="publications-single">
+      <p class="title">{{ post.data.title }}</p>
+      <p class="description">{{ post.data.description }}</p>
+    </a>
+    {% endfor %}
+  </div>
+</div>
