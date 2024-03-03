@@ -1,4 +1,4 @@
-# [nathanmalcomson.github.io](https://nathanmalcomson.github.io/)
+## [nathanmalcomson.github.io](https://nathanmalcomson.github.io/)
 
 ## How to run locally:
 1. Run `git pull`
